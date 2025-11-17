@@ -20,6 +20,10 @@ $bootstrap-icons-font-dir: "../../node_modules/bootstrap-icons/font/fonts";
     src: url('../fonts/LoftygoalsRegular-9Y5Xy.woff2') format('woff2');
 }
 
+.underlineable-nav-item {
+    border-bottom: 1px solid #F2EDDA;
+}
+
 .underlineable-nav-item:hover {
     border-bottom: 1px solid black;
 }
