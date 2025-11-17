@@ -4,7 +4,8 @@
   "description": "",
   "source": "./src/index.html",
   "scripts": {
-    "dev": "parcel ./src/index.html"
+    "dev": "parcel ./src/index.html --public-url /bonnieglen/",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "WinterFollowsSpring",
@@ -12,6 +13,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.1",
+    "gh-pages": "^6.3.0",
     "parcel": "^2.16.1"
   },
   "dependencies": {
