@@ -715,6 +715,10 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"9f5IL":[function(require,module,exports,__globalThis) {
 var _bootstrap = require("bootstrap");
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+const popoverList = [
+    ...popoverTriggerList
+].map((popoverTriggerEl)=>new _bootstrap.Popover(popoverTriggerEl));
 
 },{"bootstrap":"hjCRY"}],"hjCRY":[function(require,module,exports,__globalThis) {
 /*!
