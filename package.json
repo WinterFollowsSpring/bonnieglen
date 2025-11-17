@@ -7,7 +7,7 @@
     "dev": "parcel ./src/index.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "WinterFollowsSpring",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
@@ -15,6 +15,7 @@
     "parcel": "^2.16.1"
   },
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
   }
 }

@@ -1,0 +1,48 @@
+@import './variables';
+
+@import "bootstrap/scss/bootstrap";
+
+$bootstrap-icons-font-dir: "../../node_modules/bootstrap-icons/font/fonts";
+@import "bootstrap-icons/font/bootstrap-icons";
+
+@font-face {
+    font-family: 'lulo-clean-w01-one-bold';
+    src: url('../fonts/Lulo\ Clean\ W01\ One\ Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'spacegrotesk';
+    src: url('../fonts/SpaceGrotesk-Regular.woff2') format('woff2');
+}
+
+.underlineable-nav-item:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-item-active {
+    border-bottom: 1px solid black;
+}
+
+.img-with-overlay-text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.img-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.unselectable-text {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.space-grotesk {
+    font-family: spacegrotesk,sans-serif !important;
+}
