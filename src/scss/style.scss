@@ -15,6 +15,11 @@ $bootstrap-icons-font-dir: "../../node_modules/bootstrap-icons/font/fonts";
     src: url('../fonts/SpaceGrotesk-Regular.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'loftygoals';
+    src: url('../fonts/LoftygoalsRegular-9Y5Xy.woff2') format('woff2');
+}
+
 .underlineable-nav-item:hover {
     border-bottom: 1px solid black;
 }
@@ -45,4 +50,16 @@ $bootstrap-icons-font-dir: "../../node_modules/bootstrap-icons/font/fonts";
 
 .space-grotesk {
     font-family: spacegrotesk,sans-serif !important;
+}
+
+.lofty-goals-font {
+    font-family: 'loftygoals',sans-serif !important;
+}
+
+.size-increase-hoverable {
+    transition: transform .2s;
+}
+
+.size-increase-hoverable:hover {
+    transform: scale(1.1);
 }
