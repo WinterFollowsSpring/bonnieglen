@@ -21766,6 +21766,10 @@ textarea.form-control-lg {
   src: url("LoftygoalsRegular-9Y5Xy.fe22e00c.woff2") format("woff2");
 }
 
+.underlineable-nav-item {
+  border-bottom: 1px solid #f2edda;
+}
+
 .underlineable-nav-item:hover, .nav-item-active {
   border-bottom: 1px solid #000;
 }
